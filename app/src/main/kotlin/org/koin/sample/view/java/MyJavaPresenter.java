@@ -13,7 +13,7 @@ public class MyJavaPresenter {
     public String sayHello(){
         String hello = repository.giveHello();
 
-        return hello+" from "+this;
+        return hello+" from MyJavaPresenter";
     }
 
 }

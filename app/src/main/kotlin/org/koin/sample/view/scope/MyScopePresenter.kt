@@ -9,5 +9,5 @@ import org.koin.sample.HelloRepository
 class MyScopePresenter(val repo: HelloRepository) {
 
 
-    fun sayHello() = "${repo.giveHello()} from $this"
+    fun sayHello() = "${repo.giveHello()} from MyScopePresenter"
 }

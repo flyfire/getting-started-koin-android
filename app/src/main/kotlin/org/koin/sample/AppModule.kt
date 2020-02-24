@@ -9,6 +9,7 @@ import org.koin.sample.view.scope.MyScopePresenter
 import org.koin.sample.view.simple.MySimplePresenter
 import org.koin.sample.view.viewmodel.MyViewModel
 
+@JvmField
 val appModule = module {
     // single instance of HelloRepository
     single<HelloRepository> { HelloRepositoryImpl() }
